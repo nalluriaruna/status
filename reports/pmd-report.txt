@@ -1,0 +1,98 @@
+src/main/java/com/status/main/KanbanBoardApplication.java:7:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/status/main/KanbanBoardApplication.java:7:	UseUtilityClass:	UseUtilityClass: This utility class has a non-private constructor
+src/main/java/com/status/main/KanbanBoardApplication.java:9:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/status/main/KanbanBoardApplication.java:9:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'args' is not assigned and could be declared final
+src/main/java/com/status/main/controller/MyController.java:18:	AtLeastOneConstructor:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/com/status/main/controller/MyController.java:18:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/status/main/controller/MyController.java:22:	CommentDefaultAccessModifier:	CommentDefaultAccessModifier: Missing commented default access modifier on field 'statusService'
+src/main/java/com/status/main/controller/MyController.java:22:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/status/main/controller/MyController.java:27:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/status/main/controller/MyController.java:27:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'status' is not assigned and could be declared final
+src/main/java/com/status/main/controller/MyController.java:27:	SignatureDeclareThrowsException:	SignatureDeclareThrowsException: A method/constructor should not explicitly throw java.lang.Exception
+src/main/java/com/status/main/controller/MyController.java:29:	OnlyOneReturn:	OnlyOneReturn: A method should have only one exit point, and that should be the last statement in the method
+src/main/java/com/status/main/controller/MyController.java:30:	AvoidCatchingGenericException:	AvoidCatchingGenericException: Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/main/java/com/status/main/controller/MyController.java:31:	AvoidPrintStackTrace:	AvoidPrintStackTrace: Avoid printStackTrace(); use a logger call instead.
+src/main/java/com/status/main/controller/MyController.java:38:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/status/main/controller/MyController.java:38:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'status' is not assigned and could be declared final
+src/main/java/com/status/main/controller/MyController.java:38:	SignatureDeclareThrowsException:	SignatureDeclareThrowsException: A method/constructor should not explicitly throw java.lang.Exception
+src/main/java/com/status/main/controller/MyController.java:47:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/status/main/controller/MyController.java:47:	SignatureDeclareThrowsException:	SignatureDeclareThrowsException: A method/constructor should not explicitly throw java.lang.Exception
+src/main/java/com/status/main/entity/Progress.java:3:	CommentRequired:	CommentRequired: Enum comments are required
+src/main/java/com/status/main/entity/Status.java:8:	UnnecessaryImport:	UnnecessaryImport: Unused import 'javax.persistence.Table'
+src/main/java/com/status/main/entity/Status.java:12:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/status/main/entity/Status.java:12:	DataClass:	DataClass: The class 'Status' is suspected to be a Data Class (WOC=14.286%, NOPA=0, NOAM=6, WMC=9)
+src/main/java/com/status/main/entity/Status.java:16:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/status/main/entity/Status.java:16:	ShortVariable:	ShortVariable: Avoid variables with short names like id
+src/main/java/com/status/main/entity/Status.java:17:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/status/main/entity/Status.java:20:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/status/main/entity/Status.java:22:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/status/main/entity/Status.java:27:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/status/main/entity/Status.java:27:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'id' is not assigned and could be declared final
+src/main/java/com/status/main/entity/Status.java:27:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'progress' is not assigned and could be declared final
+src/main/java/com/status/main/entity/Status.java:27:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'title' is not assigned and could be declared final
+src/main/java/com/status/main/entity/Status.java:27:	ShortVariable:	ShortVariable: Avoid variables with short names like id
+src/main/java/com/status/main/entity/Status.java:38:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'id' is not assigned and could be declared final
+src/main/java/com/status/main/entity/Status.java:38:	ShortVariable:	ShortVariable: Avoid variables with short names like id
+src/main/java/com/status/main/entity/Status.java:46:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'title' is not assigned and could be declared final
+src/main/java/com/status/main/entity/Status.java:54:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'progress' is not assigned and could be declared final
+src/main/java/com/status/main/exception/InvalidDataException.java:3:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/status/main/exception/InvalidDataException.java:8:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/status/main/exception/InvalidDataException.java:8:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'message' is not assigned and could be declared final
+src/main/java/com/status/main/exception/NotNullException.java:3:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/status/main/exception/NotNullException.java:5:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/status/main/exception/NotNullException.java:5:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'message' is not assigned and could be declared final
+src/main/java/com/status/main/repository/StatusRepository.java:9:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/status/main/service/StatusService.java:10:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/status/main/service/StatusService.java:12:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/status/main/service/StatusService.java:12:	SignatureDeclareThrowsException:	SignatureDeclareThrowsException: A method/constructor should not explicitly throw java.lang.Exception
+src/main/java/com/status/main/service/StatusService.java:12:	UnnecessaryModifier:	UnnecessaryModifier: Unnecessary modifier 'public' on method 'createStatus': the method is declared in an interface type
+src/main/java/com/status/main/service/StatusService.java:14:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/status/main/service/StatusService.java:14:	SignatureDeclareThrowsException:	SignatureDeclareThrowsException: A method/constructor should not explicitly throw java.lang.Exception
+src/main/java/com/status/main/service/StatusService.java:14:	UnnecessaryModifier:	UnnecessaryModifier: Unnecessary modifier 'public' on method 'updateStatus': the method is declared in an interface type
+src/main/java/com/status/main/service/StatusService.java:16:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/status/main/service/StatusService.java:16:	SignatureDeclareThrowsException:	SignatureDeclareThrowsException: A method/constructor should not explicitly throw java.lang.Exception
+src/main/java/com/status/main/service/StatusService.java:16:	UnnecessaryModifier:	UnnecessaryModifier: Unnecessary modifier 'public' on method 'getAllStatus': the method is declared in an interface type
+src/main/java/com/status/main/service/StatusServiceImpl.java:12:	UnnecessaryImport:	UnnecessaryImport: Unused import 'java.util.Optional'
+src/main/java/com/status/main/service/StatusServiceImpl.java:15:	AtLeastOneConstructor:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/com/status/main/service/StatusServiceImpl.java:15:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/status/main/service/StatusServiceImpl.java:20:	CommentDefaultAccessModifier:	CommentDefaultAccessModifier: Missing commented default access modifier on field 'statusRepository'
+src/main/java/com/status/main/service/StatusServiceImpl.java:20:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/status/main/service/StatusServiceImpl.java:23:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'status' is not assigned and could be declared final
+src/main/java/com/status/main/service/StatusServiceImpl.java:28:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'status' is not assigned and could be declared final
+src/main/java/com/status/main/service/StatusServiceImpl.java:28:	MissingOverride:	MissingOverride: The method 'updateStatus(Status)' is missing an @Override annotation.
+src/test/java/com/status/main/KanbanBoardApplicationTests.java:7:	AtLeastOneConstructor:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/test/java/com/status/main/KanbanBoardApplicationTests.java:7:	CommentRequired:	CommentRequired: Class comments are required
+src/test/java/com/status/main/KanbanBoardApplicationTests.java:10:	JUnitTestsShouldIncludeAssert:	JUnitTestsShouldIncludeAssert: JUnit tests should include assert() or fail()
+src/test/java/com/status/main/KanbanBoardApplicationTests.java:10:	UncommentedEmptyMethodBody:	UncommentedEmptyMethodBody: Document empty method body
+src/test/java/com/status/main/Service/StatusServiceImplTest.java:1:	PackageCase:	PackageCase: Package name contains upper case characters
+src/test/java/com/status/main/Service/StatusServiceImplTest.java:13:	UnnecessaryImport:	UnnecessaryImport: Unused import 'com.status.main.service.StatusServiceImpl'
+src/test/java/com/status/main/Service/StatusServiceImplTest.java:19:	AtLeastOneConstructor:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/test/java/com/status/main/Service/StatusServiceImplTest.java:19:	CommentRequired:	CommentRequired: Class comments are required
+src/test/java/com/status/main/Service/StatusServiceImplTest.java:19:	JUnit5TestShouldBePackagePrivate:	JUnit5TestShouldBePackagePrivate: JUnit 5 tests should be package-private.
+src/test/java/com/status/main/Service/StatusServiceImplTest.java:21:	CommentRequired:	CommentRequired: Field comments are required
+src/test/java/com/status/main/Service/StatusServiceImplTest.java:24:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/com/status/main/Service/StatusServiceImplTest.java:24:	UncommentedEmptyMethodBody:	UncommentedEmptyMethodBody: Document empty method body
+src/test/java/com/status/main/Service/StatusServiceImplTest.java:30:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/com/status/main/Service/StatusServiceImplTest.java:30:	JUnit5TestShouldBePackagePrivate:	JUnit5TestShouldBePackagePrivate: JUnit 5 tests should be package-private.
+src/test/java/com/status/main/Service/StatusServiceImplTest.java:30:	JUnitTestContainsTooManyAsserts:	JUnitTestContainsTooManyAsserts: Unit tests should not contain more than 1 assert(s).
+src/test/java/com/status/main/Service/StatusServiceImplTest.java:32:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'status' could be declared final
+src/test/java/com/status/main/Service/StatusServiceImplTest.java:35:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'createdStatus' could be declared final
+src/test/java/com/status/main/Service/StatusServiceImplTest.java:36:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/status/main/Service/StatusServiceImplTest.java:37:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/status/main/Service/StatusServiceImplTest.java:38:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/status/main/Service/StatusServiceImplTest.java:39:	AvoidCatchingGenericException:	AvoidCatchingGenericException: Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/test/java/com/status/main/Service/StatusServiceImplTest.java:45:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/com/status/main/Service/StatusServiceImplTest.java:45:	JUnit5TestShouldBePackagePrivate:	JUnit5TestShouldBePackagePrivate: JUnit 5 tests should be package-private.
+src/test/java/com/status/main/Service/StatusServiceImplTest.java:45:	JUnitTestContainsTooManyAsserts:	JUnitTestContainsTooManyAsserts: Unit tests should not contain more than 1 assert(s).
+src/test/java/com/status/main/Service/StatusServiceImplTest.java:47:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'existingStatus' could be declared final
+src/test/java/com/status/main/Service/StatusServiceImplTest.java:50:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'updatedStatus' could be declared final
+src/test/java/com/status/main/Service/StatusServiceImplTest.java:51:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/status/main/Service/StatusServiceImplTest.java:52:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/status/main/Service/StatusServiceImplTest.java:53:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/status/main/Service/StatusServiceImplTest.java:54:	AvoidCatchingGenericException:	AvoidCatchingGenericException: Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/test/java/com/status/main/Service/StatusServiceImplTest.java:60:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/com/status/main/Service/StatusServiceImplTest.java:60:	JUnit5TestShouldBePackagePrivate:	JUnit5TestShouldBePackagePrivate: JUnit 5 tests should be package-private.
+src/test/java/com/status/main/Service/StatusServiceImplTest.java:60:	JUnitTestContainsTooManyAsserts:	JUnitTestContainsTooManyAsserts: Unit tests should not contain more than 1 assert(s).
+src/test/java/com/status/main/Service/StatusServiceImplTest.java:62:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'statusList' could be declared final
+src/test/java/com/status/main/Service/StatusServiceImplTest.java:63:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/status/main/Service/StatusServiceImplTest.java:64:	AvoidCatchingGenericException:	AvoidCatchingGenericException: Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
